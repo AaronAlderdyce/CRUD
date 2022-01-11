@@ -67,16 +67,26 @@ function resetForm() {
 function onEdit(td) {
     selectedRow = td.parentElement.parentElement;
     document.getElementById("firstName").value = selectedRow.cells[0].innerHTML;
-    document.getElementById("empCode").value = selectedRow.cells[1].innerHTML;
-    document.getElementById("salary").value = selectedRow.cells[2].innerHTML;
-    document.getElementById("city").value = selectedRow.cells[3].innerHTML;
+    document.getElementById("middleName").value = selectedRow.cells[1].innerHTML;
+    document.getElementById("lastName").value = selectedRow.cells[2].innerHTML;
+    document.getElementById("email").value = selectedRow.cells[3].innerHTML;
+    document.getElementById("address").value = selectedRow.cells[4].innerHTML;
+    document.getElementById("dob").value = selectedRow.cells[5].innerHTML;
+    document.getElementById("city").value = selectedRow.cells[6].innerHTML;
+    document.getElementById("state").value = selectedRow.cells[7].innerHTML;
+    document.getElementById("zip").value = selectedRow.cells[8].innerHTML;
 }
 
 function updateRecord(formData) {
     selectedRow.cells[0].innerHTML = formData.firstName;
-    selectedRow.cells[1].innerHTML = formData.empCode;
-    selectedRow.cells[2].innerHTML = formData.salary;
-    selectedRow.cells[3].innerHTML = formData.city;
+    selectedRow.cells[1].innerHTML = formData.middleName;
+    selectedRow.cells[2].innerHTML = formData.lastName;
+    selectedRow.cells[3].innerHTML = formData.email;
+    selectedRow.cells[4].innerHTML = formData.address;
+    selectedRow.cells[5].innerHTML = formData.dob;
+    selectedRow.cells[6].innerHTML = formData.city;
+    selectedRow.cells[7].innerHTML = formData.state;
+    selectedRow.cells[8].innerHTML = formData.zip;
 }
 
 function onDelete(td) {
