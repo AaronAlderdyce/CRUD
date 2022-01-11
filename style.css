@@ -42,9 +42,11 @@ input[type=number] {
 }
 
 input[type=submit] {
-    width: 30%;
+    width: 80%;
+    font-family: 'Courier New', Courier, monospace;
     background-color: darkslategray;
     color: #00ff00;
+    font-size: 18px;
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
