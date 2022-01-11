@@ -1,3 +1,10 @@
+body {
+    background-color: #000;
+    color: #00ff00;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
 body>table {
     width: 80%;
 }
@@ -19,7 +26,7 @@ th {
 
 tr:nth-child(even),
 table.list thead>tr {
-    background-color: #ddd;
+    background-color: darkslategray;
 }
 
 input[type=text],
@@ -31,12 +38,13 @@ input[type=number] {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+    background-color: darkslategray;
 }
 
 input[type=submit] {
     width: 30%;
-    background-color: #ddd;
-    color: #000;
+    background-color: darkslategray;
+    color: #00ff00;
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
