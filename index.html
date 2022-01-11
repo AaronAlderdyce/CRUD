@@ -1,11 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CRUD with JavaScript</title>
+    <title>
+        Html CRUD with Pure JavaScript
+    </title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -13,64 +12,42 @@
     <table>
         <tr>
             <td>
-                <!-- CRUD form -->
                 <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
                     <div>
-                        <label> First Name: </label>
-                        <input type="text" name="firstName" id="fName">
+                        <label>Full Name*</label><label class="validation-error hide" id="fullNameValidationError">This field is required.</label>
+                        <input type="text" name="fullName" id="fullName">
                     </div>
                     <div>
-                        <label> Middle Name: </label>
-                        <input type="text" name="middleName" id="mName">
+                        <label>EMP Code</label>
+                        <input type="text" name="empCode" id="empCode">
                     </div>
                     <div>
-                        <label> Last Name: </label>
-                        <input type="text" name="lastName" id="lName">
+                        <label>Salary</label>
+                        <input type="text" name="salary" id="salary">
                     </div>
                     <div>
-                        <label> E-Mail: </label>
-                        <input type="text" name="eMail" id="eMail">
-                    </div>
-                    <div>
-                        <label> Address: </label>
-                        <input type="text" name="address" id="address">
-                    </div>
-                    <div>
-                        <label> Date of Birth: </label>
-                        <input type="text" name="dob" id="dob">
-                    </div>
-                    <div>
-                        <label> City: </label>
+                        <label>City</label>
                         <input type="text" name="city" id="city">
                     </div>
-                    <div>
-                        <label> State: </label>
-                        <input type="text" name="state" id="state">
-                    </div>
-                    <div>
-                        <label> Zip Code: </label>
-                        <input type="text" name="zipCode" id="zip">
-                    </div>
-                    <div class="buttons">
+                    <div class="form-action-buttons">
                         <input type="submit" value="Submit">
                     </div>
                 </form>
             </td>
             <td>
-                <!-- Table of Data -->
-                <table class="list" id="fullList">
+                <table class="list" id="employeeList">
                     <thead>
                         <tr>
-                            <th>First Name</th>
-                            <th>Middle Name</th>
-                            <th>Last Name</th>
-                            <th>Email</th>
-                            <th>Address</th>
+                            <th>Full Name</th>
+                            <th>EMP Code</th>
+                            <th>Salary</th>
                             <th>City</th>
-                            <th>State</th>
-                            <th>Zip Code</th>
+                            <th></th>
                         </tr>
                     </thead>
+                    <tbody>
+
+                    </tbody>
                 </table>
             </td>
         </tr>
