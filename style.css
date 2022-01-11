@@ -5,3 +5,22 @@
     margin: 0;
     padding: 0;
 }
+
+body>table {
+    width: 80%;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table.list {
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 8px;
+}
