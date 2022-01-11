@@ -5,15 +5,3 @@
     margin: 0;
     padding: 0;
 }
-
-body {
-    font-family: 'Courier New', Courier, monospace;
-    background-color: #000;
-    color: #00ff00;
-}
-
-.whole-container {
-    display: flex;
-}
-
-.main-form {}
