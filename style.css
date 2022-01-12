@@ -5,6 +5,230 @@
             font-size: 20px;
         }
         
+        #fnl {
+            animation: fnl;
+            animation-duration: 2s;
+            animation-timing-function: ease-out;
+        }
+        
+        @keyframes fnl {
+            0% {
+                opacity: 0;
+            }
+            25% {
+                opacity: 0.25;
+            }
+            50% {
+                opacity: 0.5;
+            }
+            75% {
+                opacity: 0.75;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+        
+        #mnl {
+            animation: mnl;
+            animation-delay: 1000ms;
+            animation-duration: 2s;
+            animation-timing-function: ease-out;
+        }
+        
+        @keyframes mnl {
+            0% {
+                opacity: 0;
+            }
+            25% {
+                opacity: 0.25;
+            }
+            50% {
+                opacity: 0.5;
+            }
+            75% {
+                opacity: 0.75;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+        
+        #lnl {
+            animation: lnl;
+            animation-delay: 2000ms;
+            animation-duration: 2s;
+            animation-timing-function: ease-out;
+        }
+        
+        @keyframes lnl {
+            0% {
+                opacity: 0;
+            }
+            25% {
+                opacity: 0.25;
+            }
+            50% {
+                opacity: 0.5;
+            }
+            75% {
+                opacity: 0.75;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+        
+        #em {
+            animation: em;
+            animation-delay: 3000ms;
+            animation-duration: 2s;
+            animation-timing-function: ease-out;
+        }
+        
+        @keyframes em {
+            0% {
+                opacity: 0;
+            }
+            25% {
+                opacity: 0.25;
+            }
+            50% {
+                opacity: 0.5;
+            }
+            75% {
+                opacity: 0.75;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+        
+        #addy {
+            animation: addy;
+            animation-delay: 4000ms;
+            animation-duration: 2s;
+            animation-timing-function: ease-out;
+        }
+        
+        @keyframes addy {
+            0% {
+                opacity: 0;
+            }
+            25% {
+                opacity: 0.25;
+            }
+            50% {
+                opacity: 0.5;
+            }
+            75% {
+                opacity: 0.75;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+        
+        #dob {
+            animation: dob;
+            animation-delay: 5000ms;
+            animation-duration: 2s;
+            animation-timing-function: ease-out;
+        }
+        
+        @keyframes dob {
+            0% {
+                opacity: 0;
+            }
+            25% {
+                opacity: 0.25;
+            }
+            50% {
+                opacity: 0.5;
+            }
+            75% {
+                opacity: 0.75;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+        
+        #city {
+            animation: city;
+            animation-delay: 6000ms;
+            animation-duration: 2s;
+            animation-timing-function: ease-out;
+        }
+        
+        @keyframes city {
+            0% {
+                opacity: 0;
+            }
+            25% {
+                opacity: 0.25;
+            }
+            50% {
+                opacity: 0.5;
+            }
+            75% {
+                opacity: 0.75;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+        
+        #state {
+            animation: state;
+            animation-delay: 7000ms;
+            animation-duration: 2s;
+            animation-timing-function: ease-out;
+        }
+        
+        @keyframes state {
+            0% {
+                opacity: 0;
+            }
+            25% {
+                opacity: 0.25;
+            }
+            50% {
+                opacity: 0.5;
+            }
+            75% {
+                opacity: 0.75;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+        
+        #zip {
+            animation: zip;
+            animation-delay: 8000ms;
+            animation-duration: 2s;
+            animation-timing-function: ease-out;
+        }
+        
+        @keyframes zip {
+            0% {
+                opacity: 0;
+            }
+            25% {
+                opacity: 0.25;
+            }
+            50% {
+                opacity: 0.5;
+            }
+            75% {
+                opacity: 0.75;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+        
         #hmm {
             animation: hmm;
             animation-duration: 1s;
