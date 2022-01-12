@@ -5,6 +5,34 @@
             font-size: 20px;
         }
         
+        #hmm {
+            animation: hmm;
+            animation-duration: 1s;
+            animation-timing-function: ease-out;
+        }
+        
+        @keyframes hmm {
+            0% {
+                opacity: 0;
+                transform: scale(0);
+            }
+            25% {
+                opacity: 0.10;
+                transform: scale(1);
+            }
+            50% {
+                opacity: 0.5;
+                transform: scale(1.5)
+            }
+            75% {
+                opacity: 0.80;
+                transform: scale(1.25);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+        
         body>table {
             width: 80%;
         }
@@ -328,13 +356,13 @@
                 transform: translateY(-36px);
             }
             50% {
-                transform: translateY(-180px);
+                transform: translateY(-200px);
             }
             100% {
-                transform: translateY(-280px);
+                transform: translateY(-200px);
             }
         }
         
         #employeeList {
-            transform: translateY(-280px);
+            transform: translateY(-200px);
         }
