@@ -1,75 +1,340 @@
-body {
-    background-color: #000;
-    color: #00ff00;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
-}
-
-body>table {
-    width: 80%;
-}
-
-table {
-    border-collapse: collapse;
-}
-
-table.list {
-    width: 100%;
-}
-
-td,
-th {
-    border: 1px solid #ddd;
-    text-align: left;
-    padding: 8px;
-}
-
-tr:nth-child(even),
-table.list thead>tr {
-    background-color: darkslategray;
-}
-
-input[type=text],
-input[type=number] {
-    width: 100%;
-    padding: 12px 12px;
-    Margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    background-color: darkslategray;
-}
-
-input[type=submit] {
-    width: 80%;
-    font-family: 'Courier New', Courier, monospace;
-    background-color: darkslategray;
-    color: #00ff00;
-    font-size: 18px;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-form div.buttons {
-    text-align: right;
-}
-
-a {
-    cursor: pointer;
-    text-decoration: underline;
-    color: #33aaff;
-    margin-right: 4px;
-}
-
-label.validation-error {
-    color: red;
-    margin-left: 5px;
-}
-
-.hide {
-    display: none;
-}
+        body {
+            background-color: #000;
+            color: #00ff00;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 20px;
+        }
+        
+        body>table {
+            width: 80%;
+        }
+        
+        table {
+            border-collapse: collapse;
+        }
+        
+        table.list {
+            width: 100%;
+        }
+        
+        td,
+        th {
+            border: 1px solid #ddd;
+            text-align: left;
+            padding: 8px;
+        }
+        
+        tr:nth-child(even),
+        table.list thead>tr {
+            background-color: darkslategray;
+        }
+        
+        input[type=text],
+        input[type=number] {
+            width: 100%;
+            padding: 12px 12px;
+            Margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            background-color: darkslategray;
+        }
+        
+        input[type=submit] {
+            width: 80%;
+            font-family: 'Courier New', Courier, monospace;
+            background-color: darkslategray;
+            color: #00ff00;
+            font-size: 18px;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        
+        form div.buttons {
+            text-align: right;
+        }
+        
+        a {
+            cursor: pointer;
+            text-decoration: underline;
+            color: #33aaff;
+            margin-right: 4px;
+        }
+        
+        label.validation-error {
+            color: red;
+            margin-left: 5px;
+        }
+        
+        .hide {
+            display: none;
+        }
+        
+        #animFn {
+            animation: zoom-in;
+            animation-duration: 2s;
+            transform: translateX(0px);
+        }
+        
+        @keyframes zoom-in {
+            0% {
+                transform: scale(0);
+            }
+            25% {
+                transform: translateX(0px);
+                transform: scale(0.5);
+            }
+            50% {
+                transform: translateX(0px);
+            }
+            75% {
+                transform: translateX(0px);
+                transform: scale(0.75);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+        
+        #animMn {
+            animation: zoom-in;
+            animation-duration: 2s;
+            animation-delay: 1000ms;
+            transform: translateX(0px);
+        }
+        
+        @keyframes zoom-in {
+            0% {
+                transform: scale(0);
+            }
+            25% {
+                transform: translateX(0px);
+                transform: scale(0.5);
+            }
+            50% {
+                transform: translateX(0px);
+            }
+            75% {
+                transform: translateX(0px);
+                transform: scale(0.75);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+        
+        #animLn {
+            animation: zoom-in;
+            animation-duration: 2s;
+            animation-delay: 2000ms;
+            transform: translateX(0px);
+        }
+        
+        @keyframes zoom-in {
+            0% {
+                transform: scale(0);
+            }
+            25% {
+                transform: translateX(0px);
+                transform: scale(0.5);
+            }
+            50% {
+                transform: translateX(0px);
+            }
+            75% {
+                transform: translateX(0px);
+                transform: scale(0.75);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+        
+        #animEmail {
+            animation: zoom-in;
+            animation-duration: 2s;
+            animation-delay: 3000ms;
+            transform: translateX(0px);
+        }
+        
+        @keyframes zoom-in {
+            0% {
+                transform: scale(0);
+            }
+            25% {
+                transform: translateX(0px);
+                transform: scale(0.5);
+            }
+            50% {
+                transform: translateX(0px);
+            }
+            75% {
+                transform: translateX(0px);
+                transform: scale(0.75);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+        
+        #animAddress {
+            animation: zoom-in;
+            animation-duration: 2s;
+            animation-delay: 4000ms;
+            transform: translateX(0px);
+        }
+        
+        @keyframes zoom-in {
+            0% {
+                transform: scale(0);
+            }
+            25% {
+                transform: translateX(0px);
+                transform: scale(0.5);
+            }
+            50% {
+                transform: translateX(0px);
+            }
+            75% {
+                transform: translateX(0px);
+                transform: scale(0.75);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+        
+        #animDOB {
+            animation: zoom-in;
+            animation-duration: 2s;
+            animation-delay: 5000ms;
+            transform: translateX(0px);
+        }
+        
+        @keyframes zoom-in {
+            0% {
+                transform: scale(0);
+            }
+            25% {
+                transform: translateX(0px);
+                transform: scale(0.5);
+            }
+            50% {
+                transform: translateX(0px);
+            }
+            75% {
+                transform: translateX(0px);
+                transform: scale(0.75);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+        
+        #animCity {
+            animation: zoom-in;
+            animation-duration: 2s;
+            animation-delay: 6000ms;
+            transform: translateX(0px);
+        }
+        
+        @keyframes zoom-in {
+            0% {
+                transform: scale(0);
+            }
+            25% {
+                transform: translateX(0px);
+                transform: scale(0.5);
+            }
+            50% {
+                transform: translateX(0px);
+            }
+            75% {
+                transform: translateX(0px);
+                transform: scale(0.75);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+        
+        #animState {
+            animation: zoom-in;
+            animation-duration: 2s;
+            animation-delay: 7000ms;
+            transform: translateX(0px);
+        }
+        
+        @keyframes zoom-in {
+            0% {
+                transform: scale(0);
+            }
+            25% {
+                transform: translateX(0px);
+                transform: scale(0.5);
+            }
+            50% {
+                transform: translateX(0px);
+            }
+            75% {
+                transform: translateX(0px);
+                transform: scale(0.75);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+        
+        #animZip {
+            animation: zoom-in;
+            animation-duration: 2s;
+            animation-delay: 8000ms;
+            transform: translateX(0px);
+        }
+        
+        @keyframes zoom-in {
+            0% {
+                transform: scale(0);
+            }
+            25% {
+                transform: translateX(0px);
+                transform: scale(0.5);
+            }
+            50% {
+                transform: translateX(0px);
+            }
+            75% {
+                transform: translateX(0px);
+                transform: scale(0.75);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+        
+        #employeeList {
+            animation: list;
+            animation-duration: 3s;
+            animation-timing-function: ease-in-out;
+        }
+        
+        @keyframes list {
+            0% {}
+            10% {
+                transform: translateY(-36px);
+            }
+            50% {
+                transform: translateY(-180px);
+            }
+            100% {
+                transform: translateY(-280px);
+            }
+        }
+        
+        #employeeList {
+            transform: translateY(-280px);
+        }
