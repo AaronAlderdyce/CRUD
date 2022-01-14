@@ -1,4 +1,4 @@
-const selectedRow = null
+let selectedRow = null
 
 function onFormSubmit() {
     if (validate()) {
