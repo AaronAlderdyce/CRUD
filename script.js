@@ -1,8 +1,8 @@
-var selectedRow = null
+const selectedRow = null
 
 function onFormSubmit() {
     if (validate()) {
-        var formData = readFormData();
+        let formData = readFormData();
         if (selectedRow == null)
             insertNewRecord(formData);
         else
@@ -12,7 +12,7 @@ function onFormSubmit() {
 }
 
 function readFormData() {
-    var formData = {};
+    let formData = {};
     formData["firstName"] = document.getElementById("firstName").value;
     formData["middleName"] = document.getElementById("middleName").value;
     formData["lastName"] = document.getElementById("lastName").value;
@@ -26,8 +26,8 @@ function readFormData() {
 }
 
 function insertNewRecord(data) {
-    var table = document.getElementById("employeeList").getElementsByTagName('tbody')[0];
-    var newRow = table.insertRow(table.length);
+    let table = document.getElementById("employeeList").getElementsByTagName('tbody')[0];
+    let newRow = table.insertRow(table.length);
     cell1 = newRow.insertCell(0);
     cell1.innerHTML = data.firstName;
     cell2 = newRow.insertCell(1);
